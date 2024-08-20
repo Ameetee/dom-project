@@ -1,0 +1,35 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-size: larger;
+}
+
+.user-list {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #6f67c1;
+  border-radius: 8px;
+  background-color: #55d74e;
+}
+
+.user-list h1 {
+  font-size: 44px;
+  margin-bottom: 20px;
+
+}
+
+.user-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list li {
+  padding: 10px;
+  border-bottom: 1px solid #e74646;
+}
+
+.user-list li:last-child {
+  border-bottom: none;
+}
+
